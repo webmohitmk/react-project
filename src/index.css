@@ -1,13 +1,104 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa; /* Adjust as needed */
+}
+
+.logo img {
+  height: 50px; /* Adjust as needed */
+}
+
+.nav {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+}
+
+.call-button {
+  margin-left: auto;
+}
+
+.btn-call {
+  padding: 10px 20px;
+  background-color: #007bff; /* Adjust as needed */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-call:hover {
+  background-color: #0056b3; /* Adjust as needed */
+}
+
+a {
+  color: #fff;
+}
+
+
+
+
+
+.light-theme {
+  background-color: white;
+  color: black;
+}
+
+.dark-theme {
+  background-color: black;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
 }
